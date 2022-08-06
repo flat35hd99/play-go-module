@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 	"os"
+	pgm "play-go-module"
 )
 
 func main() {
-	u := User{
+	u := pgm.User{
 		ID:   1,
 		Name: "Flat",
 	}
